@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250406222253
+Username: DESKTOP-PDJB7L5\Student
+RunAs User: DESKTOP-PDJB7L5\Student
+Configuration Name: 
+Machine: DESKTOP-PDJB7L5 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Student\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 2024
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is week1_output.txt
+PS C:\Users\Student\PythonS\New folder> python -m py_compile quicksort.py
+
+PS C:\Users\Student\PythonS\New folder> python -m py_compile matrix_multiplication.py
+
+PS C:\Users\Student\PythonS\New folder> python -m py_compile ode_solver.py
+
+PS C:\Users\Student\PythonS\New folder> python -c "import dis; from quicksort import quicksort; dis.dis(quicksort)"
+
+PS C:\Users\Student\PythonS\New folder> python -c "import dis; from matrix_multiplication import matrix_multiply; dis.dis(matrix_multiply)"
+
+PS C:\Users\Student\PythonS\New folder> python -c "import dis; from ode_solver import solve_ode; dis.dis(solve_ode)"
+
+PS C:\Users\Student\PythonS\New folder> python count_instructions.py
+
+PS C:\Users\Student\PythonS\New folder> python count_instructions.py
+
+PS C:\Users\Student\PythonS\New folder> python -m cProfile -s time quicksort.py
+
+PS C:\Users\Student\PythonS\New folder> python -m cProfile -s time matrix_multiplication.py
+
+PS C:\Users\Student\PythonS\New folder> python -m cProfile -s time ode_solver.py
+
+PS C:\Users\Student\PythonS\New folder> python -m cProfile -o quicksort.prof quicksort.py
+
+PS C:\Users\Student\PythonS\New folder> snakeviz quicksort.prof
+
+PS C:\Users\Student\PythonS\New folder> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Student\PythonS\New folder> snakeviz matrix_multiplication.prof
+
+PS C:\Users\Student\PythonS\New folder> python -m cProfile -o matrix_multiplication.prof matrix_multiplication.py
+
+PS C:\Users\Student\PythonS\New folder> snakeviz matrix_multiplication.prof
+
+PS C:\Users\Student\PythonS\New folder> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Student\PythonS\New folder> python -m cProfile -o ode_solver.prof ode_solver.py
+
+PS C:\Users\Student\PythonS\New folder> snakeviz ode_solver.prof
+
+PS C:\Users\Student\PythonS\New folder> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Student\PythonS\New folder> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250406225723
+**********************
