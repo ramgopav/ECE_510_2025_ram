@@ -1,0 +1,35 @@
+Wed Apr 16 15:43:17 2025    profile_results.prof
+
+         225 function calls (191 primitive calls) in 0.003 seconds
+
+   Ordered by: cumulative time
+   List reduced from 39 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.003    0.003 {built-in method builtins.exec}
+        1    0.000    0.000    0.003    0.003 <string>:1(<module>)
+        1    0.000    0.000    0.003    0.003 profile_cnn.py:10(run_forward_pass)
+      8/1    0.000    0.000    0.002    0.002 module.py:1735(_wrapped_call_impl)
+      8/1    0.000    0.000    0.002    0.002 module.py:1743(_call_impl)
+        1    0.000    0.000    0.002    0.002 train_char_cnn.py:40(forward)
+        2    0.000    0.000    0.001    0.001 conv.py:553(forward)
+        2    0.000    0.000    0.001    0.001 conv.py:536(_conv_forward)
+        2    0.001    0.001    0.001    0.001 {built-in method torch.conv2d}
+        2    0.000    0.000    0.000    0.000 pooling.py:755(forward)
+        2    0.000    0.000    0.000    0.000 {built-in method torch._C._nn.avg_pool2d}
+        4    0.000    0.000    0.000    0.000 {built-in method torch.relu}
+        3    0.000    0.000    0.000    0.000 linear.py:124(forward)
+        3    0.000    0.000    0.000    0.000 {built-in method torch._C._nn.linear}
+        1    0.000    0.000    0.000    0.000 module.py:2846(eval)
+      7/1    0.000    0.000    0.000    0.000 module.py:2824(train)
+        7    0.000    0.000    0.000    0.000 module.py:1932(__setattr__)
+    42/28    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       13    0.000    0.000    0.000    0.000 module.py:2719(children)
+       13    0.000    0.000    0.000    0.000 module.py:2728(named_children)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        7    0.000    0.000    0.000    0.000 parameter.py:10(__instancecheck__)
+       17    0.000    0.000    0.000    0.000 module.py:1915(__getattr__)
+        8    0.000    0.000    0.000    0.000 {built-in method torch._C._get_tracing_state}
+        1    0.000    0.000    0.000    0.000 {method 'view' of 'torch._C.TensorBase' objects}
+
+
