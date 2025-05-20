@@ -1,0 +1,51 @@
+Goal -- is to read the paper and understand what's inside it and able to answer questions about the paper.
+
+I am able to read the paper and understand things with the help of chatgpt.
+
+It's really interesting paper published in Nature called Neuromorphic Computing at Scale by Kudithipudi and all.
+It talks about how neuromorphic systems—computers that try to work like our brains—could change the future of AI and low-power computing.
+
+Here’s a quick summary of what I learned and my thoughts on it.
+
+1. The Toughest Problem: Making It Scale
+-One big goal of neuromorphic computing is to build brain-like systems that can scale to millions or even billions of artificial neurons. But this is very hard to do.
+-Why? Because as you add more neurons and connections, the system gets slower, more power-hungry, and harder to manage. This is called the neuronal scalability issue.
+-If we can solve this, I think we could build systems that are much more brain-like—able to learn in real time and do smart things without needing big GPUs or servers.
+
+2. Neuromorphic Computing Needs Its “AlexNet Moment”
+-The paper compares neuromorphic computing today to deep learning before AlexNet came out in 2012. Back then, deep learning wasn’t that popular until AlexNet 
+showed it could crush image recognition tasks.
+-Neuromorphic computing hasn’t had that moment yet. But it might come if someone builds a really good training method for spiking neural networks (SNNs), 
+or a hardware-software combo that performs way better than standard AI models for real-world tasks.
+-When that happens, I think we’ll see neuromorphic chips used more in things like robotics, drones, smart sensors, and medical devices.
+
+3. Software Needs to Catch Up
+-One of the biggest problems right now is that neuromorphic hardware is ahead of the software. We don’t have easy tools to write or train spiking models like we do with 
+PyTorch or TensorFlow for normal deep learning.
+
+-I think we need:
+  A common software framework that works across different neuromorphic chips (like Loihi, BrainScaleS, etc.)
+  Tools that convert normal models into spiking ones
+  A way to visualize and debug these models easily
+  This would make it easier for more people (like me!) to try out neuromorphic computing.
+
+4. We Need Better Benchmarks
+-Accuracy and speed are important, but they don’t tell the full story for neuromorphic systems. We should measure things like:
+-Energy used per inference
+-How fast it responds to real-time input
+-How well it adapts to new data on the fly
+-Also, we need standard datasets for tasks like gesture recognition using event-based cameras. This way, different neuromorphic systems can be fairly compared.
+
+5. New Memory Tech Could Change Everything
+-The paper also talks about memristors and phase-change memory (PCM), which can store and process data in the same place. 
+ That means no more moving data back and forth like we do now (which wastes energy and time).
+-This can make neuromorphic chips:
+  Way more efficient
+  Better at learning continuously (just like a brain)
+  Useful in small devices with limited power
+-I think this is one of the most exciting areas for future research.
+
+Final Thoughts
+After reading this paper, I’m even more excited about neuromorphic computing. It’s not quite ready for prime time yet—but it has the potential to do amazing things in the future.
+To make that happen, we need better software, training methods, benchmarks, and memory tech. If those pieces come together, 
+this could be a big leap forward for how we build intelligent machines
