@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1747887358" />
+    <testcase name="spi_benchmark" classname="test_spi_benchmark" file="/mnt/c/Users/Student/PythonS/spi_benchmark_project/test_spi_benchmark.py" lineno="5" time="1.9469733238220215" sim_time_ns="164630.001" ratio_time="84556.8858009938" />
+  </testsuite>
+</testsuites>
