@@ -1,0 +1,40 @@
+Intrinsic vs. Designed Computation
+
+Coffee cups, pendulums, and why they compute 
+
+Take a mug of coffee, give it a swirl, and watch the spiral settle.  Without any silicon, code, or clock, the liquid’s dynamics integrate Navier‑Stokes equations in real time.  That’s the entire vibe of Crutchfield, Ditto, and Sinha’s 2010 Chaos Focus‑Issue introduction: physical systems already are computers—we’ve just been wearing digital blinders.
+
+---
+What the paper says
+
+1. Intrinsic computation
+   Every dynamical system—fluids, neurons, lasers—stores, transforms, and transmits information simply by evolving in time.  No one “programs” a hurricane, yet its vortex sheets encode weather patterns.
+
+2. Designed computation
+   Engineers can shape those natural dynamics so the system solves a task: e.g. chaotic lasers for cryptography, soft robots that exploit body mechanics, reservoir computers that turn water waves into classifiers.
+
+3. Measuring computation
+   The authors lean on information‑theoretic yardsticks such as entropy rate (how unpredictable the next state is) and statistical complexity (how much past the system must remember).  Those metrics let us compare a silicon CPU, the Belousov–Zhabotinsky reaction, and a spiking neural net on the same axis. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/20887067/))
+
+4. Why now? (2010‑era lens)
+   Moore’s Law was wobbling; neuromorphic and quantum prototypes were popping up.  The editors argued that future computing will be a patchwork of purpose‑built physical substrates—and we need a common language (information processing) to stitch them together.
+
+---
+My big takeaways
+
+ Computation is substrate‑agnostic.  Once you measure information flow, CMOS, photonics, and slime‑mold all sit at the same table.
+ Design space explosion.  Instead of shrinking transistors, we can dial dynamics: tune a memristor’s ion mobility or a mechanical lattice’s resonance to “program” behaviour.
+ Metrics matter.  Without entropy‑rate or complexity numbers, claims like “memristive crossbars compute faster” are just hand‑waving.
+
+---
+How this links to Beyond CMOS (Challenge 1)
+
+The IRDS roadmap begs for device‑architecture co‑design.  Intrinsic‑vs‑designed computation gives the theoretical glue: if a spin‑wave bus or FeFET array naturally performs weighted sums, maybe we lean in and architect around that instead of forcing Boolean logic.
+
+---
+
+Questions I’m chewing on 
+
+1. Can we build information‑rich metrics into EDA flows so a designer sees “entropy bottlenecks” next to timing paths?
+2. What’s the lowest‑energy physical substrate that still reaches silicon‑class reliability once we account for error‑correction overhead?
+3. Could reservoir computing on CNT‑FET oscillators (my device of the week!) beat digital LSTMs for edge inference?
