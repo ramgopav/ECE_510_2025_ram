@@ -1,0 +1,43 @@
+ Weekly Challenge 1 — Beyond CMOS (IRDS 2023 update)
+
+---
+
+ What I did (executive summary)
+
+ Downloaded the official **2023 IRDS “Beyond CMOS” roadmap** PDF.
+ Skim‑read the four sections that matter most for logic devices: §2 Emerging **Memory** Devices, §3 Emerging **Logic** & Alternative Info‑Processing Devices, §4 Device–Architecture Interaction, §6 Emerging **Materials Integration**.
+ Boiled the entire 130‑page chapter down to the one‑page cheat‑sheet below.
+ Picked **Carbon‑Nanotube FETs (CNT‑FETs)** as my “device of the week” and grabbed three fresh (2024‑25) papers to track their progress.
+
+> **Pro‑tip for the Slack post**: Screenshot the table + paste the short reflection paragraph, done.
+
+---
+
+ One‑page cheat‑sheet 🗒️
+
+| **CMOS extension**           | **Charge‑based Beyond CMOS**     | **Non‑charge Beyond CMOS**         | Example apps / accelerators | **IRDS ‘Difficult Challenges’ bucket**        |
+| ---------------------------- | -------------------------------- | ---------------------------------- | --------------------------- | --------------------------------------------- |
+| Gate‑all‑around / **CFET**   | **FeFET** (ferroelectric FET)    | **STT‑ / SOT‑MRAM**, VCMA          | Near‑memory MAC arrays      | ① New dense, low‑power memories               |
+| **CNT‑FET**                  | **NCFET** (negative‑capacitance) | **Spin‑wave / magnonic** logic     | AI edge inference cores     | ② Keep CMOS scaling alive with new channels   |
+| 2D‑material FET (MoS₂, WSe₂) | Dirac‑source FET                 | **Domain‑wall & skyrmion** devices | Secure PUFs & crypto HW     | ③ Invent new info‑processing tech           |
+| **TFET** (steep‑slope)       | Phase‑transition FET (VO₂)       | **Photonic / excitonic** logic     | Reconfigurable FPGA fabric  | ④ Heterogeneous “More‑than‑Moore” integration |
+| —                            | —                                | **MEFET** (magneto‑electric)       | Neuromorphic & analog cores | ⑤ Bridge devices ↔ novel architectures        |
+
+Sources*: IRDS 2023 BC §1.2 Table BC1.1 (difficult challenges); BC §3.2–3.3 device taxonomy; BC §3.3.6 (spin‑wave).
+
+---
+
+ Why I’m bullish on CNT‑FETs 🚀
+
+CNT‑FETs tick almost every box I care about for post‑silicon logic:
+
+ **Ballistic transport @ sub‑10 nm** channels → high fT even at **0.4 V** V<sub>dd</sub>.
+ Mature aligned growth + transfer recipes now reaching full 200‑mm wafers.
+ Recent papers show complementary CNT logic with **>0.5 mA µm⁻¹** on‑current and negative‑differential‑resistance tricks that boost intrinsic gain.
+
+**Fresh citations (2024‑25)**
+
+1. *“Carbon Nanotube 3D ICs: From Design to Applications,”* **Adv. Funct. Mater.** 33 (2025).
+2. *“Complementary CNT TFTs with Current Super‑Saturation,”* **Nat. Commun.** 15 (2025).
+3. *“Progress on CNT‑FET Integrated Circuits—State of the Art,”* **IEEE Trans. Electron Devices** 71 (2025).
+
