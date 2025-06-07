@@ -1,0 +1,22 @@
+N=32768  H2D=1.401 ms  kernel=65.283 ms  D2H=0.076 ms
+Max error: 3.000000
+N=65536  H2D=0.204 ms  kernel=7.568 ms  D2H=0.109 ms
+Max error: 3.000000
+N=131072  H2D=0.358 ms  kernel=7.620 ms  D2H=0.176 ms
+Max error: 3.000000
+N=262144  H2D=0.752 ms  kernel=7.362 ms  D2H=0.359 ms
+Max error: 3.000000
+N=524288  H2D=1.166 ms  kernel=8.673 ms  D2H=0.675 ms
+Max error: 3.000000
+N=1048576  H2D=2.067 ms  kernel=7.522 ms  D2H=1.034 ms
+Max error: 3.000000
+N=2097152  H2D=3.825 ms  kernel=7.351 ms  D2H=1.975 ms
+Max error: 3.000000
+N=4194304  H2D=7.410 ms  kernel=7.354 ms  D2H=3.747 ms
+Max error: 3.000000
+N=8388608  H2D=14.514 ms  kernel=7.446 ms  D2H=7.601 ms
+Max error: 3.000000
+N=16777216  H2D=28.372 ms  kernel=7.420 ms  D2H=14.934 ms
+Max error: 3.000000
+N=33554432  H2D=57.010 ms  kernel=7.380 ms  D2H=29.689 ms
+Max error: 3.000000
