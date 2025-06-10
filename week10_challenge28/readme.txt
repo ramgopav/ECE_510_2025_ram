@@ -18,11 +18,8 @@ This repository documents my solution to Challenge 28: Model and simulate a mem
 | Path                       | Purpose                                            |
 |  |  |
 | memristor_biolek.py      | Minimal script: single loop for default parameters |
-| memristor_demo_biolek.py | Demo script: four parameter sets on one plot       |
 | iv_loops.png             | Sample output from the demo script                 |
 | README.md                | This file                                          |
-
-> Tip: Commit the PNG after you run the code once so viewers can see the result without executing anything.
 
 
 
