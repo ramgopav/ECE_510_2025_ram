@@ -1,0 +1,436 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : plate_cnn_fpga
+Version: Q-2019.12-SP3
+Date   : Sun Jun 15 18:40:08 2025
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: tx_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: tx_bitp_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tx_cnt_reg_3_/CLK (DFFARX1_RVT)          0.00       0.00 r
+  tx_cnt_reg_3_/Q (DFFARX1_RVT)            0.17       0.17 r
+  U213/Y (NOR4X1_RVT)                      0.13       0.30 f
+  U214/Y (NAND2X0_RVT)                     0.05       0.36 r
+  U177/Y (OR3X1_RVT)                       0.07       0.43 r
+  U182/Y (INVX0_RVT)                       0.03       0.46 f
+  U178/Y (NAND2X0_RVT)                     0.05       0.50 r
+  U171/Y (INVX0_RVT)                       0.08       0.59 f
+  U315/Y (NAND2X0_RVT)                     0.09       0.68 r
+  U317/Y (AO22X1_RVT)                      0.08       0.76 r
+  U320/Y (AO21X1_RVT)                      0.05       0.81 r
+  U321/Y (OA222X1_RVT)                     0.07       0.88 r
+  tx_bitp_reg_3_/D (DFFARX1_RVT)           0.00       0.88 r
+  data arrival time                                   0.88
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  tx_bitp_reg_3_/CLK (DFFARX1_RVT)         0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (MET)                                         0.95
+
+
+  Startpoint: calc_done_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rx_cnt_bytes_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  calc_done_reg/CLK (DFFARX1_RVT)          0.00       0.00 r
+  calc_done_reg/Q (DFFARX1_RVT)            0.16       0.16 f
+  U170/Y (NAND2X0_RVT)                     0.09       0.26 r
+  U183/Y (INVX0_RVT)                       0.07       0.33 f
+  U255/Y (NAND2X0_RVT)                     0.07       0.40 r
+  U189/Y (INVX0_RVT)                       0.06       0.46 f
+  U266/Y (NAND2X0_RVT)                     0.09       0.55 r
+  U267/Y (NAND2X0_RVT)                     0.07       0.62 f
+  U286/Y (OA21X1_RVT)                      0.08       0.70 f
+  U289/Y (NAND2X0_RVT)                     0.05       0.74 r
+  U292/Y (AO21X1_RVT)                      0.06       0.80 r
+  U293/Y (OA222X1_RVT)                     0.07       0.87 r
+  rx_cnt_bytes_reg_9_/D (DFFARX1_RVT)      0.00       0.87 r
+  data arrival time                                   0.87
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  rx_cnt_bytes_reg_9_/CLK (DFFARX1_RVT)
+                                           0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.97
+
+
+  Startpoint: tx_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: tx_bitp_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tx_cnt_reg_3_/CLK (DFFARX1_RVT)          0.00       0.00 r
+  tx_cnt_reg_3_/Q (DFFARX1_RVT)            0.17       0.17 r
+  U213/Y (NOR4X1_RVT)                      0.13       0.30 f
+  U214/Y (NAND2X0_RVT)                     0.05       0.36 r
+  U177/Y (OR3X1_RVT)                       0.07       0.43 r
+  U182/Y (INVX0_RVT)                       0.03       0.46 f
+  U178/Y (NAND2X0_RVT)                     0.05       0.50 r
+  U171/Y (INVX0_RVT)                       0.08       0.59 f
+  U315/Y (NAND2X0_RVT)                     0.09       0.68 r
+  U317/Y (AO22X1_RVT)                      0.08       0.76 r
+  U319/Y (AO22X1_RVT)                      0.08       0.85 r
+  tx_bitp_reg_2_/D (DFFARX1_RVT)           0.00       0.85 r
+  data arrival time                                   0.85
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  tx_bitp_reg_2_/CLK (DFFARX1_RVT)         0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.85
+  -----------------------------------------------------------
+  slack (MET)                                         0.99
+
+
+  Startpoint: calc_done_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rx_cnt_bytes_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  calc_done_reg/CLK (DFFARX1_RVT)          0.00       0.00 r
+  calc_done_reg/Q (DFFARX1_RVT)            0.16       0.16 f
+  U170/Y (NAND2X0_RVT)                     0.09       0.26 r
+  U183/Y (INVX0_RVT)                       0.07       0.33 f
+  U255/Y (NAND2X0_RVT)                     0.07       0.40 r
+  U189/Y (INVX0_RVT)                       0.06       0.46 f
+  U266/Y (NAND2X0_RVT)                     0.09       0.55 r
+  U267/Y (NAND2X0_RVT)                     0.07       0.62 f
+  U286/Y (OA21X1_RVT)                      0.08       0.70 f
+  U289/Y (NAND2X0_RVT)                     0.05       0.74 r
+  U291/Y (AO22X1_RVT)                      0.09       0.83 r
+  rx_cnt_bytes_reg_8_/D (DFFARX1_RVT)      0.00       0.83 r
+  data arrival time                                   0.83
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  rx_cnt_bytes_reg_8_/CLK (DFFARX1_RVT)
+                                           0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         1.01
+
+
+  Startpoint: tx_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: tx_bitp_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tx_cnt_reg_3_/CLK (DFFARX1_RVT)          0.00       0.00 r
+  tx_cnt_reg_3_/Q (DFFARX1_RVT)            0.17       0.17 r
+  U213/Y (NOR4X1_RVT)                      0.13       0.30 f
+  U214/Y (NAND2X0_RVT)                     0.05       0.36 r
+  U177/Y (OR3X1_RVT)                       0.07       0.43 r
+  U182/Y (INVX0_RVT)                       0.03       0.46 f
+  U178/Y (NAND2X0_RVT)                     0.05       0.50 r
+  U171/Y (INVX0_RVT)                       0.08       0.59 f
+  U315/Y (NAND2X0_RVT)                     0.09       0.68 r
+  U193/Y (INVX0_RVT)                       0.03       0.71 f
+  U316/Y (OA222X1_RVT)                     0.11       0.83 f
+  tx_bitp_reg_1_/D (DFFARX1_RVT)           0.00       0.83 f
+  data arrival time                                   0.83
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  tx_bitp_reg_1_/CLK (DFFARX1_RVT)         0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         1.01
+
+
+  Startpoint: tx_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: tx_bitp_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tx_cnt_reg_3_/CLK (DFFARX1_RVT)          0.00       0.00 r
+  tx_cnt_reg_3_/Q (DFFARX1_RVT)            0.17       0.17 r
+  U213/Y (NOR4X1_RVT)                      0.13       0.30 f
+  U214/Y (NAND2X0_RVT)                     0.05       0.36 r
+  U177/Y (OR3X1_RVT)                       0.07       0.43 r
+  U182/Y (INVX0_RVT)                       0.03       0.46 f
+  U178/Y (NAND2X0_RVT)                     0.05       0.50 r
+  U215/Y (NAND2X0_RVT)                     0.07       0.58 f
+  U172/Y (INVX0_RVT)                       0.11       0.68 r
+  U314/Y (AO22X1_RVT)                      0.10       0.79 r
+  tx_bitp_reg_0_/D (DFFARX1_RVT)           0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  tx_bitp_reg_0_/CLK (DFFARX1_RVT)         0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         1.05
+
+
+  Startpoint: calc_done_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rx_cnt_bytes_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  calc_done_reg/CLK (DFFARX1_RVT)          0.00       0.00 r
+  calc_done_reg/Q (DFFARX1_RVT)            0.16       0.16 f
+  U170/Y (NAND2X0_RVT)                     0.09       0.26 r
+  U183/Y (INVX0_RVT)                       0.07       0.33 f
+  U255/Y (NAND2X0_RVT)                     0.07       0.40 r
+  U189/Y (INVX0_RVT)                       0.06       0.46 f
+  U266/Y (NAND2X0_RVT)                     0.09       0.55 r
+  U267/Y (NAND2X0_RVT)                     0.07       0.62 f
+  U286/Y (OA21X1_RVT)                      0.08       0.70 f
+  U288/Y (OAI22X1_RVT)                     0.10       0.79 r
+  rx_cnt_bytes_reg_7_/D (DFFARX1_RVT)      0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  rx_cnt_bytes_reg_7_/CLK (DFFARX1_RVT)
+                                           0.00       1.90 r
+  library setup time                      -0.05       1.85
+  data required time                                  1.85
+  -----------------------------------------------------------
+  data required time                                  1.85
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         1.05
+
+
+  Startpoint: calc_done_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rx_cnt_bytes_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  calc_done_reg/CLK (DFFARX1_RVT)          0.00       0.00 r
+  calc_done_reg/Q (DFFARX1_RVT)            0.17       0.17 r
+  U170/Y (NAND2X0_RVT)                     0.09       0.26 f
+  U183/Y (INVX0_RVT)                       0.09       0.35 r
+  U255/Y (NAND2X0_RVT)                     0.05       0.40 f
+  U189/Y (INVX0_RVT)                       0.07       0.47 r
+  U266/Y (NAND2X0_RVT)                     0.08       0.54 f
+  U267/Y (NAND2X0_RVT)                     0.09       0.63 r
+  U269/Y (NAND2X0_RVT)                     0.05       0.68 f
+  U270/Y (OA222X1_RVT)                     0.08       0.77 f
+  rx_cnt_bytes_reg_1_/D (DFFARX1_RVT)      0.00       0.77 f
+  data arrival time                                   0.77
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  rx_cnt_bytes_reg_1_/CLK (DFFARX1_RVT)
+                                           0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.77
+  -----------------------------------------------------------
+  slack (MET)                                         1.08
+
+
+  Startpoint: tx_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: tx_sh_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tx_cnt_reg_3_/CLK (DFFARX1_RVT)          0.00       0.00 r
+  tx_cnt_reg_3_/Q (DFFARX1_RVT)            0.17       0.17 r
+  U213/Y (NOR4X1_RVT)                      0.13       0.30 f
+  U214/Y (NAND2X0_RVT)                     0.05       0.36 r
+  U177/Y (OR3X1_RVT)                       0.07       0.43 r
+  U182/Y (INVX0_RVT)                       0.03       0.46 f
+  U178/Y (NAND2X0_RVT)                     0.05       0.50 r
+  U215/Y (NAND2X0_RVT)                     0.07       0.58 f
+  U172/Y (INVX0_RVT)                       0.11       0.68 r
+  U323/Y (AO22X1_RVT)                      0.08       0.76 r
+  tx_sh_reg_1_/D (DFFASX1_RVT)             0.00       0.76 r
+  data arrival time                                   0.76
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  tx_sh_reg_1_/CLK (DFFASX1_RVT)           0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.76
+  -----------------------------------------------------------
+  slack (MET)                                         1.08
+
+
+  Startpoint: tx_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: tx_sh_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  plate_cnn_fpga     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tx_cnt_reg_3_/CLK (DFFARX1_RVT)          0.00       0.00 r
+  tx_cnt_reg_3_/Q (DFFARX1_RVT)            0.17       0.17 r
+  U213/Y (NOR4X1_RVT)                      0.13       0.30 f
+  U214/Y (NAND2X0_RVT)                     0.05       0.36 r
+  U177/Y (OR3X1_RVT)                       0.07       0.43 r
+  U182/Y (INVX0_RVT)                       0.03       0.46 f
+  U178/Y (NAND2X0_RVT)                     0.05       0.50 r
+  U215/Y (NAND2X0_RVT)                     0.07       0.58 f
+  U172/Y (INVX0_RVT)                       0.11       0.68 r
+  U322/Y (AO22X1_RVT)                      0.08       0.76 r
+  tx_sh_reg_0_/D (DFFASX1_RVT)             0.00       0.76 r
+  data arrival time                                   0.76
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  tx_sh_reg_0_/CLK (DFFASX1_RVT)           0.00       1.90 r
+  library setup time                      -0.06       1.84
+  data required time                                  1.84
+  -----------------------------------------------------------
+  data required time                                  1.84
+  data arrival time                                  -0.76
+  -----------------------------------------------------------
+  slack (MET)                                         1.08
+
+
+1
